@@ -1,7 +1,7 @@
 // ===================================
 // Web3Forms Configuration
 // ===================================
-const WEB3FORMS_ACCESS_KEY = 'ba2f4e8c-f386-4493-b5a8-d08fdcceb9b8';
+const WEB3FORMS_ACCESS_KEY = '687047f5-2b9b-42fb-b050-7bd43b1bf072';
 
 // ===================================
 // Form Validation and Submission
