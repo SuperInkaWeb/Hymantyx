@@ -1059,3 +1059,39 @@ section[id] {
     0%, 100% { transform: translateY(0); }
     50% { transform: translateY(-6px); }
 }
+
+ .texto-centrado {
+    text-align: center;        
+  }
+
+  .texto-centrado p {
+    max-width: 1000px;        
+    margin: 20px auto;          
+    text-align: justify;       
+    line-height: 1.6;          
+  }
+
+ @media (max-width: 768px) {
+    .texto-centrado p {
+      max-width: 60%;
+      padding: 20px;            
+      font-size: 0.95rem;        
+      line-height: 1.6;
+    }
+  }
+
+   @media (max-width: 480px) {
+    .texto-centrado p {
+      padding: 18px;
+      max-width: 100%;
+      font-size: 0.9rem;
+    }
+  }
+
+  h2 {
+  font-size: 1.6rem;
+  text-align: center;
+  max-width: 700px; 
+  margin: 0 auto 20px auto;
+  line-height: 1.3;
+}
